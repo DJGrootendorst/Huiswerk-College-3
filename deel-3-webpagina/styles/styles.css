@@ -1,1 +1,45 @@
-/*Schrijf hier jouw css*/
+.body-1 {
+    background-color: #F2F3D9;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    margin-bottom: 20px;
+}
+
+.container-content-1 {
+    background-color: #C16E70;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-self: stretch;
+    gap: 20px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-1, .content-2, .content-3 {
+    justify-content: space-between;
